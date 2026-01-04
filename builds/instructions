@@ -1,0 +1,13 @@
+Build 01: HTTP API + Postgres (CRUD, migrations)
+Build 02: Concurrency demo (worker pool, rate limiter)
+Build 03: Auth + tokens
+Build 04: Simple message queue / pub-sub
+Document each in /builds/*/README.md with:
+
+problem
+
+approach
+
+tradeoffs
+
+what broke
