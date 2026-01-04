@@ -1,0 +1,23 @@
+Goal: Create a working baseline of a *Go HTTP server*, not mastery.
+
+0-10 mins: Minimal server in main.go
+  - main.go
+  - net/http
+  - One route: /
+  - Start server on :8080
+  - Test in browser or curl
+10–25 min — Logging
+  - Log method, path, status
+  - Use log.Println
+  - Confirm logs on each request
+25–40 min — Health + shutdown
+  - Add /health endpoint (returns 200 OK)
+  - Add graceful shutdown using context + os.Signal
+40–60 min — Write README
+
+In this md write:
+What this server does?
+
+What could break (timeouts, concurrency, bad input)?
+
+What you don’t understand yet?
