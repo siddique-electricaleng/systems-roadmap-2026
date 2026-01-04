@@ -1,0 +1,13 @@
+Language: Go (primary)
+
+Foundations:
+- HTTP, REST, JSON
+- SQL (Postgres), indexing
+- Concurrency (goroutines, channels)
+- Memory basics
+- Networking basics
+
+Excluded for now:
+- Frontend frameworks
+- Advanced ML
+- Competitive programming
